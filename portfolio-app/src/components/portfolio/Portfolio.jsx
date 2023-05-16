@@ -14,7 +14,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={Img2} alt="Hike" />
           </div>
-          <h3>This is a Portfolio item title</h3>
+          <h3>HiKr</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com" className="btn" target="_blank">
             Github
@@ -34,7 +34,7 @@ const Portfolio = () => {
             <img src={Img1} alt="water" />
           </div>
           <div className="portfolio__item-cta">
-          <h3>This is a Portfolio item title</h3>
+          <h3>waterUdoin</h3>
           <a href="https://github.com" className="btn" target="_blank">
             Github
           </a>
