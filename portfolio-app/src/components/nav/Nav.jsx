@@ -4,7 +4,6 @@ import {RiHome8Line} from 'react-icons/ri'
 import { FiUser } from "react-icons/fi";
 import { MdMiscellaneousServices } from "react-icons/md";
 import { FaRegPaperPlane } from "react-icons/fa";
-import { ImNewspaper } from "react-icons/im";
 import { useState } from 'react';
 
 
@@ -40,13 +39,7 @@ const Nav = () => {
       >
         <FaRegPaperPlane />
       </a>
-      <a
-        href="#resume"
-        onClick={() => setActiveNav("#resume")}
-        className={activeNav === "#resume" ? "active" : ""}
-      >
-        <ImNewspaper />
-      </a>
+    
     </nav>
   );
 }

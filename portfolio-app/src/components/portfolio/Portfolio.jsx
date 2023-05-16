@@ -16,13 +16,13 @@ const Portfolio = () => {
           </div>
           <h3>HiKr</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com" className="btn" target="_blank">
+          <a href="https://github.com" className="btn" >
             Github
           </a>
           <a
             href="https://github.com"
             className="btn btn-primary"
-            target="_blank"
+      
           >
             Live Demo
           </a>
@@ -31,17 +31,18 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={Img1} alt="water" />
+            <img src={Img1} alt="water" className='water-img'/>
           </div>
-          <div className="portfolio__item-cta">
+          
           <h3>waterUdoin</h3>
-          <a href="https://github.com" className="btn" target="_blank">
+          <div className="portfolio__item-cta">
+          <a href="https://github.com" className="btn" >
             Github
           </a>
           <a
             href="https://github.com"
             className="btn btn-primary"
-            target="_blank"
+            
           >
             Live Demo
           </a>

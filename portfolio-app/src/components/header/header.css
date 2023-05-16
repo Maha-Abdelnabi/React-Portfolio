@@ -1,6 +1,6 @@
 .header{
    height: 100vh;
-   padding-top: 7rem;
+   padding-top: 1rem;
    overflow: hidden;
 }
 
@@ -28,7 +28,9 @@
     position: absolute;
     left: 0;
     bottom: 3rem;
+    
 }
+/*to make the icons in colomns*/
 .header__socials::after{
     content: "";
     width:1px;
@@ -38,23 +40,23 @@
 
 /*me img*/
 .me{
-   background: linear-gradient(var(--color-primary)), transparent; 
-   width: 22rem;
-   height: 30rem;
+   
+   width: 35rem;
+   height: 35rem;
    position: absolute;
-   left: calc(50% - 11rem);
-   margin-top: 4rem;
-   border-radius: 12rem 12rem 0 0;
+   left: calc(50% - 15em);
+   top: 6rem;
    overflow: hidden;
    padding: 5rem 1.5rem 1.5rem 1.5rem;
+   
 
 }
 
 /*scroll down*/
-.scroll-down{
+.scroll__down{
     position: absolute;
-    right: 2.3rem;
-    bottom: 5rem;
+    right: -2.3rem;
+    bottom: 8rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
