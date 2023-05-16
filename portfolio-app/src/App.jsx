@@ -6,6 +6,7 @@ import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Portfolio from './components/portfolio/Portfolio';
 import Resume from './components/resume/Resume';
+import Experience from './components/experience/Experience';
 
 
 
@@ -16,6 +17,7 @@ const App = () => {
         <Header />
         <Nav />
       <About />
+      <Experience />
       <Contact />
       <Portfolio />
       <Footer />
