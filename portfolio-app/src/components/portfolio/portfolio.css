@@ -33,14 +33,14 @@ margin-bottom: 1rem;
 }
 
 /*media query for md devices*/
-@media screen and (max-width: 1024){
+@media screen and (max-width: 1024px){
 .portfolio__container{
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
 }
 
 /*media query for sm devices*/
-@media screen and (max-width: 600){
+@media screen and (max-width: 600px){
     .portfolio__container{
         grid-template-columns: 1fr;
         gap: 1rem;

@@ -15,7 +15,7 @@
 .experience__container > div:hover{
     background: transparent;
     border-color: var(--color-primary-variant);
-    cursor: default;
+    cursor: pointer;
 }
 
 .experience__container > div h3{
@@ -40,7 +40,7 @@
 }
 
 /*media query for md devices*/
-@media screen and (max-width: 1024){
+@media screen and (max-width: 1024px){
 .experience__container{
     grid-template-columns: 1fr;
 }
@@ -55,12 +55,12 @@
 }
 
 /*media query for sm devices*/
-@media screen and (max-width: 600){
+@media screen and (max-width: 600px){
     .experience__container{
         gap: 1rem;
     }
     .experience__container >div{
         width: 100%;
-        padding: 2rem 1rem;
+        padding: 2rem1rem;
     }
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import CTA from './CTA';
+import CTA from './CTA'
 import HeaderSocials from './HeaderSocials';
 import Image  from "../../assets/11.png";
 
@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <section className="header">
       <div className="container header__container">
-        <h5>Hello I'm</h5>
+        <h4>Hello I'm</h4>
         <h1>Maha Abdelnabi</h1>
         <h5 className="text-light">Fullstack Developer</h5>
         <CTA />

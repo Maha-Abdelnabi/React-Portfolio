@@ -55,7 +55,7 @@ input, textarea{
 }
 
 /*media query for md devices*/
-@media screen and (max-width: 1024){
+@media screen and (max-width: 1024px){
 .container.contact__container{
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -63,7 +63,7 @@ input, textarea{
 }
 
 /*media query for sm devices*/
-@media screen and (max-width: 600){
+@media screen and (max-width: 600px){
     .container.contact__container{
         width: var(--container-width-sm);
     }

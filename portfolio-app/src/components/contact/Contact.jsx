@@ -30,7 +30,11 @@ const Contact = () => {
             <HiOutlineMailOpen className="contact__option-icon" />
             <h4>Email</h4>
             <h5>maha@gmail.com</h5>
-            <a href="mailto:maha@gmail.com" target="_blank">
+            <a
+              href="mailto:maha@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Send a message
             </a>
           </article>
@@ -38,13 +42,23 @@ const Contact = () => {
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>maha@gmail.com</h5>
-            <a href="https://m.me/maha.abedulnabi">Send a message </a>
+            <a
+              href="https://m.me/maha.abedulnabi"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Send a message{" "}
+            </a>
           </article>
           <article className="contact__option">
             <IoLogoWhatsapp className="contact__option-icon" />
             <h4>Whatsapp</h4>
             <h5>+123456789</h5>
-            <a href="https://api.whatsapp.com/send?phone=+123456789">
+            <a
+              href="https://api.whatsapp.com/send?phone=+123456789"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Send a message{" "}
             </a>
           </article>
