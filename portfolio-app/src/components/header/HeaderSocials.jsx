@@ -10,10 +10,10 @@ const HeaderSocials = () => {
       <a href="https://linkdin.com" target="blank">
         <ImLinkedin />
       </a>
-      <a href="https://github.com" target="blank">
+      <a href="https://github.com/Maha-Abdelnabi" target="blank">
         <FaGithubSquare />
       </a>
-      <a href="https://facebok.com" target="blank">
+      <a href="https://www.facebook.com/maha.abedulnabi" target="blank">
         <AiFillFacebook />
       </a>
     </div>
