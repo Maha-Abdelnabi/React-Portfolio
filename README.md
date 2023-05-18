@@ -3,7 +3,8 @@
  ## Description
  This is a ReactJS based personal Portfolio was bootstrapped with Create React App.
 ## Link
-[](https://maha-abdelnabi.github.io/React-Portfolio/)
+
+[Portfolio](https://maha-abdelnabi.github.io/React-Portfolio/)
  ## Screenshot of the Portfolio
  ![](./src/assets/ss.PNG)
 
