@@ -24,10 +24,10 @@ const data = [
   },
   {
     id: 3,
-    title: "Project 3",
+    title: "Events",
     image: Img3,
-    github: "https://github.com",
-    demo: "https://github.com",
+    github: "https://github.com/BrianLucy/Event-Planner",
+    demo: "https://event-planner2.herokuapp.com/",
   },
   {
     id: 4,
